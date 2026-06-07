@@ -1,0 +1,2 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css"; /* 👈 Agrega esta línea para los mapas */
