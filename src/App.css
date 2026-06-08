@@ -182,3 +182,24 @@
     border-right-color: var(--border);
   }
 }
+
+/* Cambiar el color de las flechas y los puntos al azul de Finca Raíz */
+:root {
+  --swiper-navigation-color: #0076e4; /* El azul brillante de tu botón Publica */
+  --swiper-pagination-color: #0076e4;
+  --swiper-navigation-size: 24px; /* Un tamaño más sutil para las flechas */
+}
+
+/* Hacer las flechas redondas y estilizadas como en tu captura */
+.swiper-button-next, .swiper-button-prev {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 16px !important;
+  font-weight: bold;
+}
