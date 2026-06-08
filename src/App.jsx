@@ -4,7 +4,7 @@ import HomeWithMap from "./views/HomeWithMap";
 import Dashboard from "./views/Dashboard";
 import AuthModal from "./components/AuthModal";
 import Beneficios from "./components/Beneficios"; 
-import UltimosIngresos from "./components/Ultimosingresos";
+import UltimosIngresos from "./components/CarruselIngresos";
 import Footer from "./components/Footer"; // 🚀 Importamos tu nuevo footer adaptado a Venezuela
 
 function App() {
